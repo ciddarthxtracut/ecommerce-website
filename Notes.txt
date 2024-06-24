@@ -1,0 +1,9 @@
+First need to create virtual environment 
+
+pip install env
+pipenv shell -  to activate virtual environment
+pip instll django - to install django
+pipev --venv - to heck path of the virtual environment
+djando-admin - we get the commands of the django which we going to use
+django-admin startproject cid_project . - to create project file (that dot denoted where folder needs to create, need to create inside itself or separate now i put dot so folder created inside itself.)
+python manage.py runserver - to runserver
