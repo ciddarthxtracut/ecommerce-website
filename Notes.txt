@@ -3,7 +3,12 @@ First need to create virtual environment
 pip install env
 pipenv shell -  to activate virtual environment
 pip instll django - to install django
-pipev --venv - to heck path of the virtual environment
+pipev --venv - to check path of the virtual environment
 djando-admin - we get the commands of the django which we going to use
 django-admin startproject cid_project . - to create project file (that dot denoted where folder needs to create, need to create inside itself or separate now i put dot so folder created inside itself.)
 python manage.py runserver - to runserver
+changed db to mysql 
+pip install mysqlclient  to install mysql in django
+create a new app python manage.py startapp shop
+python manage.py makemigrations to make migration
+python manage.py migrate to migrate (create a table view)
